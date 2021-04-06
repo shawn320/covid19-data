@@ -7,7 +7,7 @@ const AddForm = (props) => {
       <div className="flex w-3/5 m-auto items-center">
         <span className="w-full">
           <FormField
-            type="text"
+            type="number"
             label="pruid"
             name="pruid"
             changed={props.changed}
@@ -21,7 +21,7 @@ const AddForm = (props) => {
             placeholder={props.placeholder}
           />
           <FormField
-            type="text"
+            type="date"
             label="date"
             name="date"
             changed={props.changed}
@@ -30,21 +30,21 @@ const AddForm = (props) => {
         </span>
         <span className="w-full">
           <FormField
-            type="text"
+            type="number"
             label="numconf"
             name="numconf"
             changed={props.changed}
             placeholder={props.placeholder}
           />
           <FormField
-            type="text"
+            type="number"
             label="numprob"
             name="numprob"
             changed={props.changed}
             placeholder={props.placeholder}
           />
           <FormField
-            type="text"
+            type="number"
             label="numdeaths"
             name="numdeaths"
             changed={props.changed}
@@ -53,21 +53,21 @@ const AddForm = (props) => {
         </span>
         <span className="w-full">
           <FormField
-            type="text"
+            type="number"
             label="numtotal"
             name="numtotal"
             changed={props.changed}
             placeholder={props.placeholder}
           />
           <FormField
-            type="text"
+            type="number"
             label="numtoday"
             name="numtoday"
             changed={props.changed}
             placeholder={props.placeholder}
           />
           <FormField
-            type="text"
+            type="number"
             label="ratetotal"
             name="ratetotal"
             changed={props.changed}
